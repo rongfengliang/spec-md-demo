@@ -7,10 +7,12 @@
     "spec-md": "^0.6.0"
   },
   "scripts": {
-    "b": "spec-md ./md/*.md > ./out/index.html",
-    "live":"live-server --open=./out"
+    "b": "spec-md -m metadata.json ./md/userlogin.md > ./out/index.html && cp -rf images ./out",
+    "live": "live-server --open=./out",
+    "h":"nodemon --exec 'spec-md -m metadata.json ./md/userlogin.md > ./out/index.html && cp -rf images ./out'"
   },
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.0",
+    "nodemon": "^1.18.3"
   }
 }

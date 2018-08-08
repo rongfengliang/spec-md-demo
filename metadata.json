@@ -1,0 +1,10 @@
+{
+    "biblio": {
+      "http://example.com": {
+        "Identifier": "#sec-names-and-keywords",
+        "PrimaryExpression": "#sec-primary-expression",
+        "ReturnIfAbrupt()": "#sec-returnifabrupt",
+        "Get()": "#sec-get-o-p"
+      }
+    }
+  }
