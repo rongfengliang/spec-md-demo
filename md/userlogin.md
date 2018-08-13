@@ -8,6 +8,7 @@
 - how to do
 - how to use
 - troubleshooting
+- demo platform 
 
 ![Specs](./images/app.png)
 
