@@ -9,6 +9,7 @@
 - how to use
 - troubleshooting
 - demo platform 
+- add demo app
 
 ![Specs](./images/app.png)
 
